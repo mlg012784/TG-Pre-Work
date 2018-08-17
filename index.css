@@ -164,6 +164,7 @@ body{
 .pull-quote {
     width: 350px;
 }
+
 /*CSS 26*/
 #banner .content h1 {
     border: 3px solid white;
@@ -173,6 +174,11 @@ h2 {
 }
 
 /*CSS 27*/
+#banner .content h1 {
+    border-radius: 15px;
+
+}
+
 
 
  
