@@ -97,6 +97,12 @@ h1 {
 .caption {
     opacity: 0.75;
 }
+/*CSS 22*/
+
+.image {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/soccer.jpeg");
+  }
+
 
 
 
