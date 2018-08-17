@@ -300,6 +300,17 @@ header {
     width: 100%;
 }
 
+/*CSS 42*/
+header {
+    position: fixed;
+}
+.welcome {
+    position: relative;
+    top: 200px;
+}
+   
+
+
 
 
 
