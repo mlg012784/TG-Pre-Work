@@ -21,3 +21,15 @@ h1 {
 .uppercase {
     text-transform: uppercase;
 }
+/*CSS 7*/
+#article-title{
+    font-family: cursive;
+    text-transform: capitalize;
+}
+/*CSS 8*/
+#article-title{
+    font-family: cursive;
+    text-transform: capitalize;
+}
+  
+
