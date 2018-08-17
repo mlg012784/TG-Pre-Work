@@ -247,7 +247,41 @@ body {
 /*CSS 37*/
 * {
     box-sizing: border-box;
-  }
+}
+
+/*CSS 38 Project*/
+
+nav img {
+    width: 180px;
+    margin: auto;
+}
+nav span {
+    margin: 10px 0;
+}
+.content {
+    height: 500px;
+    margin: 10px auto;
+    overflow: scroll;
+}
+.header h1 {
+height: 320px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.button {
+    padding: 20px;
+    margin: 40px auto;
+    border: 1px solid blue;
+}
+ul.nutrition {
+    padding: 20px;
+}
+ul.nutrition li {
+    width: 200px;
+    padding: 10px 20px;
+    margin-bottom: 3px;
+}
+
 
 
 
