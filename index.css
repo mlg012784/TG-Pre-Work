@@ -210,6 +210,16 @@ p {
 h2 {
     margin: 30px 20px;
 }
+
+/*CSS 32*/
+
+#main {
+    margin: auto 0;
+}
+.pull-quote {
+    margin: auto 0;
+}
+
    
 
 
