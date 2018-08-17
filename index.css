@@ -47,6 +47,9 @@ h1 {
 .capitalize {
     text-transform: capitalize;
 }
-
+ /*CSS 11*/
+ h2.destination {
+    font-family: cursive;
+}
   
 
