@@ -282,6 +282,13 @@ ul.nutrition li {
     margin-bottom: 3px;
 }
 
+/*CSS 39*/
+.question {
+    text-align: center;
+    position: static;
+}
+
+
 
 
 
