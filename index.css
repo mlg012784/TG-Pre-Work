@@ -318,7 +318,7 @@ header {
 footer {
     height: 100px;
 }
-   
+
 /*CSS 46*/
 li {
     display: inline-block;
@@ -329,6 +329,11 @@ li {
 }
 .answer {
     display: inline-block;
+}
+
+/*CSS 47*/
+.answer {
+    float: left;
 }
 
 
