@@ -336,6 +336,11 @@ li {
     float: left;
 }
 
+/*CSS 48*/
+.question {
+    clear: left
+}
+
 
 
 
