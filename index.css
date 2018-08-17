@@ -313,7 +313,11 @@ header {
 header {
     z-index: 10;
 }
-   
+
+/*CSS 45*/
+footer {
+    height: 100px;
+}   
 
 
 
