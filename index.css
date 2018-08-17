@@ -89,6 +89,10 @@ p {
 h1 {
     text-align: center;
 }
+/*CSS 20*/
+.caption {
+    background-color: white;
+}
 
 
 
