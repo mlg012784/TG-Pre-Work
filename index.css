@@ -293,6 +293,12 @@ ul.nutrition li {
     position: relative;
     top: 40px;
 }
+/*CSS 41*/
+
+header {
+    position: absolute;
+    width: 100%;
+}
 
 
 
