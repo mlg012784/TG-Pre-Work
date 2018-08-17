@@ -200,11 +200,17 @@ p {
 
 /*CSS 30*/
 p {
-margin-top: 60px;
+    margin-top: 60px;
 }
 .share a {
     margin: 10px;
 }
+
+/*CSS 31*/
+h2 {
+    margin: 30px 20px;
+}
+   
 
 
 
