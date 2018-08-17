@@ -93,7 +93,10 @@ h1 {
 .caption {
     background-color: white;
 }
-
+/*CSS 21*/
+.caption {
+    opacity: 0.75;
+}
 
 
 
