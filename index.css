@@ -308,6 +308,11 @@ header {
     position: relative;
     top: 200px;
 }
+
+/*CSS 43*/
+header {
+    z-index: 10;
+}
    
 
 
