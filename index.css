@@ -244,7 +244,10 @@ body {
 .donate{
     visibility: hidden;
 }
-
+/*CSS 37*/
+* {
+    box-sizing: border-box;
+  }
 
 
 
