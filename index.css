@@ -38,5 +38,15 @@ h1 {
 .publish-time {
     color: gray;
 }
+
+/*CSS 10*/
+.cursive {
+    font-family: cursive;
+}
+  
+.capitalize {
+    text-transform: capitalize;
+}
+
   
 
