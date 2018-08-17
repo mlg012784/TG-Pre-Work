@@ -317,7 +317,19 @@ header {
 /*CSS 45*/
 footer {
     height: 100px;
-}   
+}
+   
+/*CSS 46*/
+li {
+    display: inline-block;
+    width: 80px;
+}
+.welcome {
+    top: 50px;
+}
+.answer {
+    display: inline-block;
+}
 
 
 
