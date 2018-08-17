@@ -140,11 +140,18 @@ img{
     font-family: Georgia;
       background-image: url('https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
   }
+  /*CSS 25*/
   
-
-
-
-
+#banner {
+    height: 700px;
+}
+#banner .content h1 {
+    width: 400px;
+}
+.pull-quote {
+    width: 350px;
+}
+ 
    
 
 
