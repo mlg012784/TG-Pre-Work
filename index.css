@@ -17,4 +17,7 @@ h1 {
     color: teal;
 }
  
-
+/*CSS 6*/
+.uppercase {
+    text-transform: uppercase;
+}
