@@ -234,6 +234,13 @@ p {
     overflow: scroll;
 }
 
+/*CSS 35*/
+body {
+	margin: 0;
+    padding: 0;
+}
+
+
 
 
 
