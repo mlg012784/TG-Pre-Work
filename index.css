@@ -7,6 +7,7 @@ th, td {
     text-align: left;
     width: 33.3333%;
 }
+
 /*CSS 4*/
 h1 {
     color: maroon;
@@ -47,18 +48,22 @@ h1 {
 .capitalize {
     text-transform: capitalize;
 }
+
  /*CSS 11*/
  h2.destination {
     font-family: cursive;
 }
+
 /*CSS 12*/
 .description h5 {
     color: teal;
 }
+
 /*CSS 13*/
 h5{
     color: rebeccapurple;
 }
+
 /*CSS 14*/
 h5{
     color: rebeccapurple !important;
@@ -69,6 +74,7 @@ h5,
 p{
   font-family: Georgia;
 }
+
 /*CSS 16*/
 h1 {
     font-family: Georgia;
@@ -77,71 +83,78 @@ h1 {
 h2 {
     font-family: Georgia;
 }
+
 /*CSS 17*/
 p {
     font-size: 18px;
 }
+
 /*CSS 18*/
 p {
     font-weight: bold;
 }
+
 /*CSS 19*/
 h1 {
     text-align: center;
 }
+
 /*CSS 20*/
 .caption {
     background-color: white;
 }
+
 /*CSS 21*/
 .caption {
     opacity: 0.75;
 }
-/*CSS 22*/
 
+/*CSS 22*/
 .image {
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/soccer.jpeg");
 }
+
 /*CSS 23 Project*/
 img{
     height: 150px;
-  }
-  .description{
+}
+.description{
     font-size: 20px;
-  }
-  #cook-time{
+}
+#cook-time{
     font-weight: bold;
-  }
-  .ingredients li{
+}
+.ingredients li{
     list-style: square;
-  }
-  p,.time{
-    color: gray;
-  }
-  .external-link{
-    color: SeaGreen;
-  }
-  h1, h2, p, li{
-    font-family: Helvetica;
-  }
-  /*CSS 24 Project*/
-  .header{
+}
+p,.time{
+  color: gray;
+}
+.external-link{
+  color: SeaGreen;
+}
+h1, h2, p, li{
+  font-family: Helvetica;
+}
+
+/*CSS 24 Project*/
+.header{
     background-color: CornflowerBlue;
     text-align: center;
-  }
-  .about-me{
+}
+.about-me{
     font-size: 20px;
     opacity: .5;
-  }
-  h1{
+}
+h1{
     color: Azure;
-  }
-  body{
+}
+body{
     font-family: Georgia;
       background-image: url('https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
-  }
+}
+
   /*CSS 25*/
-  
 #banner {
     height: 700px;
 }
@@ -151,6 +164,17 @@ img{
 .pull-quote {
     width: 350px;
 }
+/*CSS 26*/
+#banner .content h1 {
+    border: 3px solid white;
+}
+h2 {
+    border: 1px dotted red;
+}
+
+/*CSS 27*/
+
+
  
    
 
