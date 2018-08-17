@@ -341,6 +341,27 @@ li {
     clear: left
 }
 
+/*CSS 49 Project*/
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+nav li {
+    display: inline-block;
+    width: 80px;
+}
+main {
+    top: 80px;
+}
+.supporting .col {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+    
+
+
 
 
 
