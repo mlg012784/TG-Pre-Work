@@ -64,5 +64,12 @@ h5{
     color: rebeccapurple !important;
 }
 
+/*CSS 15*/
+h5,
+p{
+  font-family: Georgia;
+}
+
+
   
 
