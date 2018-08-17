@@ -176,8 +176,20 @@ h2 {
 /*CSS 27*/
 #banner .content h1 {
     border-radius: 15px;
-
 }
+
+/*CSS 28*/
+
+h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.share a {
+    padding: 14px;
+}
+
 
 
 
