@@ -426,7 +426,82 @@ body {
     background-color: hsl(325, 50%, 50%);
 }
 
+/*CSS 55*/
+body {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+  
+.midground {
+    background-color: hsla(225, 100%, 25%, 0.4);
+}
+  
+.foreground {
+    background-color: hsla(325, 50%, 50%, 0.6);
+}
 
+/*CSS 56 Project*/
+header {
+    background-color: #ff8000;
+}
+#banner:before {
+    background-color: rgba(255, 128, 0, 0.75);
+}
+h1 {
+    color: rgba(0,0,0,0.7);
+}
+#color-guide h2 {
+    color: #ff8000;
+}
+.color .swatches h4 {
+    color: #9b9b9b;
+}
+.reds .base-color {
+    color: hsl(350, 100%, 50%);
+}
+.reds .lightness .color-1 {
+    background-color: hsl(350, 100%, 80%);
+}
+.reds .saturation .color-1 {
+    background-color: hsl(350, 100%, 50%);
+}
+.reds .hue .color-1 {
+    background-color: hsl(350, 100%, 50%);
+}
+.greens .base-color {
+    color: HSL (130, 100, 50);
+}
+.greens .lightness .color-1 {
+    background-color: hsl(103, 100%, 90%);
+}
+.greens .saturation .color-1 {
+    background-color: hsl(130, 100%, 50%);
+}
+.greens .hue .color-1 {
+    background-color: hsl(86, 100%, 50%);
+}
+.blues .base-color {
+    color: HSL (220, 100, 50);
+}
+.blues .lightness .color-1 {
+    background-color: hsl(220, 100%, 90%);
+}
+.blues .saturation .color-1 {
+    background-color: hsl(220, 100%, 50%);
+}
+.blues .hue .color-1 {
+    background-color: hsl(260, 100%, 50%);
+}
+footer:before {
+    background-color: rgba(255, 128, 0, 0.75);
+}
+footer .button {
+    background-color: #ff8000;
+}
+
+
+
+
+  
   
 
   
