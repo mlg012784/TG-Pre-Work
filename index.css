@@ -397,7 +397,24 @@ h1 {
 .city {
     background-color: rgb(139, 69, 19);
 }
-  
+
+/*CSS 53*/
+.green {
+    background-color: #9EB599;
+}
+.light {
+    background-color: #683C2C;
+}
+.city {
+    background-color: #4C352D;
+}
+.vienna {
+    background-color: #352926;
+} 
+.italian {
+    background-color: #141212;
+}
+
 
   
 
