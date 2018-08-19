@@ -624,6 +624,13 @@ h1 {
 .grid {
     display: grid;
 }
+
+/*CSS 72*/
+.grid {
+    grid-template-columns: 100px 50% 200px;
+}
+ 
+
   
   
 
