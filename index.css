@@ -516,7 +516,11 @@ p {
 .header {
     font-weight: 900;
 }
-    
+
+/*CSS 60*/
+.font-card .creator {
+    font-style: italic;
+}
 
   
 
