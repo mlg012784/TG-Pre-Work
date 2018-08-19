@@ -644,7 +644,12 @@ h1 {
 .grid {
     grid-template: 1fr 1fr 1fr / 3fr 50% 1fr;
 }
- 
+
+/*CSS 76*/
+.grid {
+    grid-template: repeat(3, 1fr) / 3fr 50% 1fr;
+}
+
 
   
   
