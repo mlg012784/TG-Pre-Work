@@ -635,6 +635,10 @@ h1 {
     grid-template-rows: 40% 50% 50px;
 }
 
+/*CSS 74*/
+.grid {
+    grid-template: 40% 50% 50px / 100px 50% 200px;
+}
 
   
   
