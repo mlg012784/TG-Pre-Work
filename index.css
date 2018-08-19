@@ -665,6 +665,10 @@ h1 {
     grid-row-end: 7;
 }
 
+/*CSS 80*/
+.a {
+    grid-row: 5 / 7;
+}
 
 
     
