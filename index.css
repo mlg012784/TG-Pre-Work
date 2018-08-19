@@ -430,11 +430,9 @@ body {
 body {
     background-color: rgba(0, 255, 0, 0.1);
 }
-  
 .midground {
     background-color: hsla(225, 100%, 25%, 0.4);
 }
-  
 .foreground {
     background-color: hsla(325, 50%, 50%, 0.6);
 }
@@ -496,6 +494,17 @@ footer:before {
 }
 footer .button {
     background-color: #ff8000;
+}
+
+/*CSS 57*/
+h1 {
+    font-family: Georgia;
+}
+h2 {
+    font-family: Georgia;
+}
+p {
+    font-family: Helvetica;
 }
 
 
