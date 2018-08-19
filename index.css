@@ -547,7 +547,13 @@ h1 {
     line-height: 1.4;
 }
 
-
+/*CSS 66*/
+.garamond .sample .text{
+    font-family: "Garamond", serif;
+}
+.helvetica .sample .text{
+      font-family: Helvetica, sans-serif; 
+}
 
 
     
