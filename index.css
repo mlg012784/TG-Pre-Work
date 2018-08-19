@@ -679,7 +679,13 @@ h1 {
       grid-row:  2 / span 3;
 }
 
-
+/*CSS 82*/
+.a {
+    grid-area: 5 / 1 / span 2 / span 2;
+}
+.b {
+    grid-area: 2 / 2 / span 3 / span 6;
+}
 
 
     
