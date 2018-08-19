@@ -525,8 +525,15 @@ p {
 /*CSS 61*/
 h2 {
     word-spacing: .05em;
-
 }
+
+/*CSS 62*/
+h2 {
+    letter-spacing: 0.03em;
+}
+
+
+    
   
 
   
