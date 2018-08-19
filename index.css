@@ -630,6 +630,11 @@ h1 {
     grid-template-columns: 100px 50% 200px;
 }
  
+/*CSS 73*/
+.grid {
+    grid-template-rows: 40% 50% 50px;
+}
+
 
   
   
