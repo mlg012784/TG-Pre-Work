@@ -782,6 +782,13 @@ main {
     grid-auto-rows: 500px;
 }
 
+/*CSS 92*/
+main {
+    grid-auto-flow: column;
+}
+
+
+
 
 
 
