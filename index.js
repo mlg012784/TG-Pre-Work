@@ -60,3 +60,7 @@ molecule += 16;
 particle *= 6.02;
 assay++ ;
 
+//JS 12
+let favoriteAnimal = 'Dog';
+console.log("My favorite animal: " + favoriteAnimal);
+
