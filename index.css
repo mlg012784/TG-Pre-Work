@@ -742,6 +742,17 @@ footer {
     grid-area: 9 / 1 / 13 / 7;
 }
 
+/*CSS 86*/
+main {
+    justify-items: center; 
+}
+.recipe {
+     width: 200px;
+}
+
+
+
+
 
 
 
