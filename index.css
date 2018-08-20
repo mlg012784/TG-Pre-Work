@@ -763,7 +763,11 @@ main {
     align-items: end;
 }
 
-
+/*89*/
+main {
+    height: 1600px;
+    align-content: center;
+}
 
 
 
