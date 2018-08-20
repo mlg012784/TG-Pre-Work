@@ -81,5 +81,23 @@ fahrenheit = Math.floor(fahrenheit);
 // printing conversion
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
 
+//JS 15
+// integer used to calc dog yaers
+const myAge = 34;
+// variable for first two dog years
+let earlyYears = 2;
+// equation for calc early years
+earlyYears *= 10.5; 
+// myAge-2 acc for first two yaers
+let laterYears = myAge - 2;
+// laterYears*4 
+laterYears *= 4;
+//eq to convert human to dog years
+let myAgeInDogYears = earlyYears + laterYears;
+//name string to lowercase
+const myName = 'Mark'.toLowerCase();
+// printing sentence using converted data
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} old in dog years.`)
+
 
 
