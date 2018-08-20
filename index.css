@@ -750,6 +750,15 @@ main {
      width: 200px;
 }
 
+/*CSS 87*/
+main {
+    justify-content: end;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+
 
 
 
