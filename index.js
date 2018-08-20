@@ -43,3 +43,9 @@ const entree = 'Enchiladas';
 const price = 12;
 console.log(entree);
 console.log(price);
+
+//JS 9
+let changeMe = true;
+changeMe = false;
+console.log(changeMe);
+
