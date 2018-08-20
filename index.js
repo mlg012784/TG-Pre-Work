@@ -38,4 +38,8 @@ console.log('If it became jaundice they could treat it.');
 console.log('If it didn\'t become jaundice and went away they could discharge him.');
 console.log('But this just being short of jaundice all the time confused them.');*/
 
-
+// JS 8
+const entree = 'Enchiladas';
+const price = 12;
+console.log(entree);
+console.log(price);
