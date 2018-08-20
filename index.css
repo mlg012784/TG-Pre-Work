@@ -769,6 +769,14 @@ main {
     align-content: center;
 }
 
+/*CSS 90*/
+.a {
+    align-self: end;
+}
+.c {
+    justify-self: start;
+}
+
 
 
 
