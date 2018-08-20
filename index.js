@@ -69,3 +69,17 @@ let myName = 'Mark';
 let myCity = 'Kansas City';
 console.log(`my name is ${myName}. my favorite city is ${myCity}`)
  
+//JS 14
+// kelvin temp
+const kelvin = 293;
+//celsius equal to 273 < kelvin
+const celsius = kelvin - 273;
+//equation to calc fahrenheit
+let fahrenheit = celsius * (9 / 5) + 32;
+// round fahrenheit;
+fahrenheit = Math.floor(fahrenheit);
+// printing conversion
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+
+
