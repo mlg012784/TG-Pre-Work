@@ -17,3 +17,8 @@ console.log(0.2708 * 100)
 //JS 4
 console.log("Teaching the world how to code".length);
 
+//JS 5
+console.log('Codecademy'.toUpperCase()); 
+console.log('    Remove whitespace   '.trim());
+  
+ 
