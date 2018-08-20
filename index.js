@@ -55,3 +55,8 @@ console.log(notDefined);
 let valueless;
 console.log(valueless);
 
+//JS 11
+molecule += 16;
+particle *= 6.02;
+assay++ ;
+
