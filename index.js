@@ -49,3 +49,9 @@ let changeMe = true;
 changeMe = false;
 console.log(changeMe);
 
+//JS 10
+let notDefined; 
+console.log(notDefined);
+let valueless;
+console.log(valueless);
+
