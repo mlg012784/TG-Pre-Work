@@ -99,5 +99,11 @@ const myName = 'Mark'.toLowerCase();
 // printing sentence using converted data
 console.log(`My name is ${myName}. I am ${myAgeInDogYears} old in dog years.`)
 
-
+//JS 16
+let isSoccerFan = false;
+if (isSoccerFan === true ) {
+  console.log('Goal!')
+} else {
+  console.log('No goal!')
+}
 
