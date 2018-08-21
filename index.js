@@ -111,4 +111,9 @@ if (isSoccerFan === true ) {
 let wordCount = 45;
 let favoritePhrase = 'g';
 
+//JS 18
+if (!favoritePhrase) {
+    console.log("This string doesn't seem to be empty.");
+}
+
 
