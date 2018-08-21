@@ -144,3 +144,10 @@ if (moonPhase === 'full') {
   console.log('Invalid moon phase.')
 }
 
+//JS 22
+let moonPhase = 'full';
+let isFoggyNight = false;
+if (moonPhase === 'full' || isFoggyNight === true) {
+  console.log('Howl!')
+}
+
