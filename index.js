@@ -233,5 +233,14 @@ function isGreaterThan(numberOne, numberTwo) {
 }
 console.log(isGreaterThan(450, 100));
 
+//JS 31
+const isGreaterThan = (numberOne, numberTwo) => {
+    if (numberOne > numberTwo) {
+      return true;
+    } else {
+      return false;
+    }
+};
+console.log(isGreaterThan(450, 100));
 
 
