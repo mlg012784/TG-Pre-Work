@@ -188,5 +188,9 @@ const takeOrder = () =>{
 }
 takeOrder();
 
-
+//JS 26
+const takeOrder = (topping) => {
+    console.log(`Order: pizza topped with ${topping}`);
+};
+takeOrder('topping');
 
