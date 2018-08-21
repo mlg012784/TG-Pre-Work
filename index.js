@@ -223,6 +223,15 @@ const getTotal = (itemCount) => {
 console.log(getSubTotal(orderCount));
 console.log(getTotal(orderCount))
 
+//JS 30
+function isGreaterThan(numberOne, numberTwo) {
+    if (numberOne > numberTwo) {
+      return true;
+    } else {
+      return false;
+    }
+}
+console.log(isGreaterThan(450, 100));
 
 
 
