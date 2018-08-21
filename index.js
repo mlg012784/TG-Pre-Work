@@ -194,13 +194,21 @@ const takeOrder = (topping) => {
 };
 takeOrder('topping');
 
-//JS 270
+//JS 27
 const takeOrder = (topping, crustType) => {
     console.log(`Order: ${crustType} crust pizza topped with ${topping}`);
 };
 takeOrder('pepperoni', 'thin');
 takeOrder('bacon', 'pan');
 takeOrder('pineapple', 'hand-tossed')
+
+//JS 28
+let orderCount = 0;
+const getSubTotal = (itemCount) =>{
+  return itemCount * 7.5;
+}
+console.log(getSubTotal(orderCount));
+
 
 
 
