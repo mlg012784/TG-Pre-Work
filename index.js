@@ -107,3 +107,8 @@ if (isSoccerFan === true ) {
   console.log('No goal!')
 }
 
+//JS 17
+let wordCount = 45;
+let favoritePhrase = 'g';
+
+
