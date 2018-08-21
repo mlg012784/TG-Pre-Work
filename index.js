@@ -194,3 +194,13 @@ const takeOrder = (topping) => {
 };
 takeOrder('topping');
 
+//JS 270
+const takeOrder = (topping, crustType) => {
+    console.log(`Order: ${crustType} crust pizza topped with ${topping}`);
+};
+takeOrder('pepperoni', 'thin');
+takeOrder('bacon', 'pan');
+takeOrder('pineapple', 'hand-tossed')
+
+
+
