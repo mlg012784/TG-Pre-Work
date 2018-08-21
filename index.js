@@ -247,3 +247,46 @@ console.log(isGreaterThan(450, 100));
 const volumeOfSphere = diameter => 
   (1/6) * Math.PI * diameter * diameter * diameter;
 
+//JS 33
+const getUserChoice = userInput => {
+    userInput = userInput.toLowerCase();
+    if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors' || userInput === 'bomb'){
+      return userInput;
+    } else {
+      console.log('Error!');
+    }
+  }
+  const getComputerChoice = () =>{
+    randNum = Math.floor(Math.random() * 3);
+    switch (randNum){
+      case 0:
+        return 'rock';
+      case 1: 
+        return 'paper';
+      case 2: 
+        return 'scissors';
+    }
+  }
+  const determineWinner = (getUserChoice, getComputerChoice) => {
+    if (getUserChoice === getComputerChoice) {
+      return 'Tie game'  }
+    if ((getUserChoice === 'rock' && getComputerChoice === 'paper')|| (getUserChoice === 'paper' &&
+       getComputerChoice === 'scissors') || (getUserChoice === 'scissors' && getComputerChoice === 'rock')){
+      return 'The computer won!';
+    }else if (getUserChoice === 'bomb'){
+     return 'You Won!' 
+    } else{
+      return 'You won!'
+    }
+  }
+   const playGame = () => {
+     const userChoice = getUserChoice('bomb');
+     const computerChoice = getComputerChoice();
+     console.log(`You threw: ${userChoice}`);
+     console.log(`The computer threw: ${computerChoice}`);
+     console.log(determineWinner(userChoice, computerChoice));
+};
+  
+playGame();
+  
+  
