@@ -123,3 +123,11 @@ if (hungerLevel > 7){
 } else {
   console.log('We can eat later!')
 }
+
+//JS 20
+let moonPhase = 'full';
+if (moonPhase === 'full'){
+  console.log('Howl!')
+} else {
+  console.log('I swear I am not a werewolf.')
+}
