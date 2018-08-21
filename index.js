@@ -116,4 +116,10 @@ if (!favoritePhrase) {
     console.log("This string doesn't seem to be empty.");
 }
 
-
+//JS 19
+let hungerLevel = 10;
+if (hungerLevel > 7){
+  console.log('Time to eat')
+} else {
+  console.log('We can eat later!')
+}
