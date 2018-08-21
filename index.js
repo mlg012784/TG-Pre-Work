@@ -243,4 +243,7 @@ const isGreaterThan = (numberOne, numberTwo) => {
 };
 console.log(isGreaterThan(450, 100));
 
+//JS 32
+const volumeOfSphere = diameter => 
+  (1/6) * Math.PI * diameter * diameter * diameter;
 
