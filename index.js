@@ -538,3 +538,23 @@ console.log(person.age)
 console.log(person['name'])
 console.log(person['age'])
 
+//JS 62
+let person = {
+  name: 'Mark',
+  age: 35,
+  weekendAlarm: 'Alarm set to 8AM',
+  weekAlarm: 'Alarm set to 7AM'
+};
+console.log(person['name']);
+console.log(person['age']);
+
+let day = 'Tuesday';
+let alarm;
+
+if (day === 'Saturday' || day === 'Sunday' ) {
+  alarm = 'weekendAlarm';
+} else {
+  alarm = 'weekAlarm';
+}
+console.log(person[alarm]);
+
