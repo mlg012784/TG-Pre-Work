@@ -523,3 +523,10 @@ let longCities = cities.filter(city => city.length > 7);
 let smallerNums = nums.map(num => num - 5);
 nums.every(num => num < 0);
 
+//JS 59
+
+let person = {
+  name:'Mark',
+  age: 34
+};
+
