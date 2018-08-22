@@ -517,3 +517,9 @@ console.log(words.some(function(word) {
 let interestingWords = words.filter(word => word.length > 5);
 console.log(interestingWords.every(word =>  word.length > 5 ));
 
+//JS 58
+cities.forEach(city => console.log('Have you visited ' + city + '?'));
+let longCities = cities.filter(city => city.length > 7);
+let smallerNums = nums.map(num => num - 5);
+nums.every(num => num < 0);
+
