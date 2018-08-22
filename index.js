@@ -475,6 +475,16 @@ for (let vacationSpotIndex = 0; vacationSpotIndex<vacationSpots.length; vacation
 //JS 51
 for (let vacationSpotIndex = vacationSpots.length - 1; vacationSpotIndex >= 0; vacationSpotIndex--);
 
+//JS 52
+let myPlaces  = ['Alaska', 'Germany', 'Japan'];
+let friendPlaces = ['Fiji', 'Quebec', 'Italy'];
+for ​(let myPlacesIndex = 0; myPlacesIndex < myPlaces.length; myPlacesIndex++) { 
+  for (let friendPlacesIndex = 0; friendPlacesIndex < friendPlaces.length; friendPlacesIndex++){
+    if (myPlaces[myPlacesIndex] === friendPlaces[friendPlacesIndex]) {
+      console.log('Match: ' + friendPlaces[friendPlacesIndex]);
+    }
+  }
+}
 
 
 
