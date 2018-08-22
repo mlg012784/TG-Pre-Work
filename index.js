@@ -573,3 +573,19 @@ sayHello: () => {
 }
 console.log(person.sayHello());
 
+//JS 66
+let person = {
+  name: 'Mark',
+  age: 35,
+  weekendAlarm: 'Alarm set to 8AM',
+  weekAlarm: 'Alarm set to 7AM',
+  
+  sayHello: function() {
+    return 'Hello, there!';
+  },
+  
+  sayGoodbye() {
+    return 'Goodbye!';
+  }
+  
+};
