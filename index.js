@@ -433,3 +433,9 @@ newYearsResolutions[1] = 'Learn a new language'
 //JS 45
 console.log(newYearsResolutions.length);
 
+//JS 46 
+newYearsResolutions.push('run','walk');
+console.log(newYearsResolutions);
+newYearsResolutions.pop();
+console.log(newYearsResolutions);
+
