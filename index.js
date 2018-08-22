@@ -589,3 +589,19 @@ let person = {
   }
   
 };
+
+//JS 67
+let person = {
+  name: 'Mark',
+  age: 35,
+  weekendAlarm: 'Alarm set to 8AM',
+  weekAlarm: 'Alarm set to 7AM',
+  
+  sayHello: function() {
+    return `Hello, my name is ${this.name}`;
+  },
+  
+  sayGoodbye() {
+    return 'Goodbye!';
+  }
+};
