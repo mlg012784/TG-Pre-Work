@@ -566,3 +566,10 @@ console.log(person.hobbies);
 person.hobbies = ['Video-games', 'Listening to music'];
 person.hobbies = ['Video-games'];
 console.log(person.hobbies);
+
+//JS 65
+sayHello: () => {
+  return 'Hello, there!';
+}
+console.log(person.sayHello());
+
