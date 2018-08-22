@@ -288,5 +288,27 @@ const getUserChoice = userInput => {
 };
   
 playGame();
+
+//JS 34
+const calculateSleepDebt = () => {
+  const actualSleepHours = getActualSleepHours();
+  const idealSleepHours = getIdealSleepHours();
+  if (actualSleepHours === idealSleepHours){
+    console.log("You've got the perfect amount of sleep.");
+  }
   
+  else if (actualSleepHours >
+    idealSleepHours){
+    console.log("You've got " + (actualSleepHours - idealSleepHours) + " more hours of sleep than needed.");
+  } else if (actualSleepHours < idealSleepHours){
+    console.log("You need " + (idealSleepHours - actualSleepHours) + " more hours of rest.");
+  } else{
+    console.log("Error!")
+  }
+};
+
+calculateSleepDebt();
+
+
+
   
