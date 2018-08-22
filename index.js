@@ -534,3 +534,7 @@ let person = {
 console.log(person.name)
 console.log(person.age)
 
+//JS 61
+console.log(person['name'])
+console.log(person['age'])
+
