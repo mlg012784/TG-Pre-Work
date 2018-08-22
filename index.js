@@ -498,5 +498,10 @@ console.log('Found a Spade')
 //JS 54
 fruits.forEach(fruit =>console.log('I want to eat ' + fruit)) 
 
+//JS 55
+let secretMessage = animals.map(animals => animals[0])
 
+let smallNumbers = bigNumbers.map(function(number){
+  return number / 100;
+});
 
