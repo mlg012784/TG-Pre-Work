@@ -530,3 +530,7 @@ let person = {
   age: 34
 };
 
+//JS 60
+console.log(person.name)
+console.log(person.age)
+
