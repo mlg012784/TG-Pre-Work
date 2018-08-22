@@ -461,5 +461,13 @@ utensils.pop();
 console.log(utensils);
 utensils = ['Slicing Knife', 'Basting Brush']
 
+//JS 49
+let vacationSpots = ['Alaska', 'Germany', 'Japan'];
+console.log(vacationSpots[0]);
+console.log(vacationSpots[1]);
+console.log(vacationSpots[2]);
+
+
+
 
 
