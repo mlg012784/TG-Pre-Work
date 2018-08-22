@@ -412,12 +412,17 @@ const getRandEvent = () => {
   };
   const event = getRandEvent();
   const days = getTrainingDays(event);
-  // Define a `name` variable. Use it as an argument after updating logEvent and logTime 
-  
-  logEvent(name, event);
-  logTime(name, days);
+// Define a `name` variable. Use it as an argument after updating logEvent and logTime 
+logEvent(name, event);
+logTime(name, days);
 
 //JS 42
-let newYearsResolutions = ['get', 'new', 'job'];
+let newYearsResolutions = ['leap', 'jump', 'hop'];
 console.log(newYearsResolutions);
 
+//JS 43
+let newYearsResolutions = ['leap', 'jump', 'hop'];
+let listItem = newYearsResolutions[0]
+console.log(listItem);
+console.log(newYearsResolutions[2])
+console.log(newYearsResolutions[3])
