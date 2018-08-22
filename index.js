@@ -509,3 +509,11 @@ let smallNumbers = bigNumbers.map(function(number){
 let smallNumbers = randomNumbers.filter(num => num < 250);
 let longFavoriteWords = favoriteWords.filter(word => word.length > 7);
 
+
+//JS 57
+console.log(words.some(function(word) {
+  return word.length < 6;
+}));
+let interestingWords = words.filter(word => word.length > 5);
+console.log(interestingWords.every(word =>  word.length > 5 ));
+
