@@ -429,3 +429,7 @@ console.log(newYearsResolutions[3])
 
 //JS 44
 newYearsResolutions[1] = 'Learn a new language'
+
+//JS 45
+console.log(newYearsResolutions.length);
+
