@@ -467,6 +467,11 @@ console.log(vacationSpots[0]);
 console.log(vacationSpots[1]);
 console.log(vacationSpots[2]);
 
+//JS 50
+for (let vacationSpotIndex = 0; vacationSpotIndex<vacationSpots.length; vacationSpotIndex++) {
+  console.log('I would love to visit ' + vacationSpots[vacationSpotIndex]);
+}
+
 
 
 
