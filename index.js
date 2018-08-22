@@ -495,5 +495,8 @@ while (currentCard !== 'Spade'){
 }
 console.log('Found a Spade')
 
+//JS 54
+fruits.forEach(fruit =>console.log('I want to eat ' + fruit)) 
+
 
 
