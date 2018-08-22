@@ -562,3 +562,7 @@ console.log(person[alarm]);
 person.hobbies = ['Video-games', 'Listenig to music'];
 console.log(person.hobbies);
 
+//JS 64
+person.hobbies = ['Video-games', 'Listening to music'];
+person.hobbies = ['Video-games'];
+console.log(person.hobbies);
