@@ -505,3 +505,7 @@ let smallNumbers = bigNumbers.map(function(number){
   return number / 100;
 });
 
+//JS 56
+let smallNumbers = randomNumbers.filter(num => num < 250);
+let longFavoriteWords = favoriteWords.filter(word => word.length > 7);
+
