@@ -416,3 +416,8 @@ const getRandEvent = () => {
   
   logEvent(name, event);
   logTime(name, days);
+
+//JS 42
+let newYearsResolutions = ['get', 'new', 'job'];
+console.log(newYearsResolutions);
+
