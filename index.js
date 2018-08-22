@@ -583,11 +583,9 @@ let person = {
   sayHello: function() {
     return 'Hello, there!';
   },
-  
   sayGoodbye() {
     return 'Goodbye!';
   }
-  
 };
 
 //JS 67
@@ -600,8 +598,15 @@ let person = {
   sayHello: function() {
     return `Hello, my name is ${this.name}`;
   },
-  
   sayGoodbye() {
     return 'Goodbye!';
   }
 };
+
+//JS 68
+let friend = {
+  name: 'Tony'
+};
+
+friend.sayHello = person.sayHello;
+
