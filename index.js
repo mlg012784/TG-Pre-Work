@@ -446,4 +446,20 @@ groceryList.unshift('popcorn');
 console.log(groceryList);
 console.log(groceryList.slice(1,4));
 
+//JS 48
+let condiments = ['Ketchup', 'Mustard', 'Soy Sauce', 'Sriracha'];
+
+const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
+
+condiments.push('BBQ Sauce');
+console.log(condiments);
+
+condiments = ['BBQ Sauce'];
+console.log(condiments);
+
+utensils.pop();
+console.log(utensils);
+utensils = ['Slicing Knife', 'Basting Brush']
+
+
 
