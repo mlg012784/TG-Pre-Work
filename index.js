@@ -439,3 +439,11 @@ console.log(newYearsResolutions);
 newYearsResolutions.pop();
 console.log(newYearsResolutions);
 
+//JS 47
+groceryList.shift();
+console.log(groceryList);
+groceryList.unshift('popcorn');
+console.log(groceryList);
+console.log(groceryList.slice(1,4));
+
+
