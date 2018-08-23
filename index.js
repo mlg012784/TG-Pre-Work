@@ -640,3 +640,11 @@ get age() {
 };
 
 console.log(person.age)
+
+//JS 72
+class Surgeon{
+  constructor(name, department){
+    this.name = name;
+    this.department = department;
+  }
+}
