@@ -764,5 +764,8 @@ class HospitalEmployee {
 let esFivePercentageSupport = 95.47;
 let esSixTemplateLiterals = 87.61;
 
+//JS 82
+var carbonara = "You can make carbonara with " + pasta + ', ' + meat + ', ' + " and a sauce made with " + sauce + ".";
+
 
 
