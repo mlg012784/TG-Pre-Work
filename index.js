@@ -922,3 +922,14 @@ export { availableAirplanes as aircrafts, flightRequirements as flightReqs, meet
 
 //JS 93
 import { aircrafts, flightReqs, meetsStaffReqs, meetsSpeedRangeReqs} from './airplane';
+
+//JS 94
+export let availableAirplanes = [
+];
+export let flightRequirements = {
+};
+export function meetsStaffRequirements(availableStaff, requiredStaff) {
+};
+export default meetsSpeedRangeRequirements;
+
+
