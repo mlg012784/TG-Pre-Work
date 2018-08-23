@@ -678,4 +678,10 @@ class Surgeon {
 const surgeonCurry = new Surgeon('Curry', 'Cardiovascular');
 const surgeonDurant = new Surgeon('Durant', 'Orthopedics');
 
+//JS 75
+console.log(surgeonCurry.name )
+surgeonCurry.takeVacationDays(3)
+console.log(surgeonCurry.remainingVacationDays)
+
+
 
