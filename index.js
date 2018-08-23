@@ -978,3 +978,20 @@ const additionalParams = '&topics=';
 
 const topicQuery = topicField.value;
 const endpoint = `${url}${queryParams}${wordQuery}${additionalParams}${topicQuery}`;
+
+//JS 99
+const xhr = new XMLHttpRequest();
+const url = 'https://api-to-call.com/endpoint';
+const data = JSON.stringify({id: '200'});
+
+xhr.responseType = 'json';
+
+xhr.onreadystatechange = () => {
+  if(xhr.readyState === XMLHttpRequest.DONE){
+    return xhr.response;
+  }
+}
+
+xhr.open('POST', url);
+xhr.send(data);
+ 
