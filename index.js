@@ -627,3 +627,16 @@ let person = {
 
  //JS 70
  person.age = 39; 
+
+ //JS 71
+ let person = {
+  _name: 'Lu Xun',
+  _age: 137,
+  
+get age() {
+    console.log(`${this._name} is ${this._age} years old.`);
+    return this._age;
+  }
+};
+
+console.log(person.age)
