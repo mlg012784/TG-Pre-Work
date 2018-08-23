@@ -624,3 +624,6 @@ let person = {
     }
   }
 };
+
+ //JS 70
+ person.age = 39; 
