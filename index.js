@@ -951,4 +951,25 @@ xhr.onreadystatechange = () => {
 xhr.open('GET', url);
 xhr.send();
 
+//JS 97
+const url = 'https://api.datamuse.com/words?';
+const queryParams = 'rel_rhy=';
+
+const getSuggestions = () => {
+  const wordQuery = inputField.value;
+  const endpoint = `${url}${queryParams}${wordQuery}`;
+  
+  const xhr = new XMLHttpRequest();
+  xhr.responseType = 'json';
+
+  xhr.onreadystatechange = () => {
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+      renderResponse(xhr.response);
+    }
+  }
+  
+  xhr.open('GET', endpoint);
+  xhr.send();
+}
+
 
