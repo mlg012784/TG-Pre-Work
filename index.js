@@ -916,3 +916,6 @@ function displaySpeedRangeStatus() {
 }
 
 displaySpeedRangeStatus();
+
+//JS 92
+export { availableAirplanes as aircrafts, flightRequirements as flightReqs, meetsStaffRequirements as meetsStaffReqs, meetsSpeedRangeRequirements as meetsSpeedRangeReqs };
