@@ -760,5 +760,9 @@ class HospitalEmployee {
   }
 }
 
+//JS 81
+let esFivePercentageSupport = 95.47;
+let esSixTemplateLiterals = 87.61;
+
 
 
