@@ -610,3 +610,17 @@ let friend = {
 
 friend.sayHello = person.sayHello;
 
+//JS 69
+let person = {
+  _name: 'Lu Xun',
+  _age: 137,
+  
+  set age(newAge) {
+    if (typeof newAge === 'number') {
+        this._age = newAge;
+      console.log(`${newAge} is valid input.`);
+    } else {
+      return('Invalid input')
+    }
+  }
+};
