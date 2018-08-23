@@ -767,5 +767,9 @@ let esSixTemplateLiterals = 87.61;
 //JS 82
 var carbonara = "You can make carbonara with " + pasta + ', ' + meat + ', ' + " and a sauce made with " + sauce + ".";
 
+//JS 83
+let Airplane = {};
+Airplane.myAirplane = "StarJet"
+module.exports = Airplane;
 
 
