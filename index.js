@@ -841,3 +841,13 @@ function meetsStaffRequirements(availableStaff, requiredStaff) {
 
 export { availableAirplanes, flightRequirements, meetsStaffRequirements};
 
+//JS 89
+import {availableAirplanes, flightRequirements, meetsStaffRequirements} from './airplane';
+
+function displayStaffStatus() {
+  availableAirplanes.forEach(function(element) {
+   console.log(element.name + ' meets staff requirements: ' + meetsStaffRequirements(element.availableStaff, flightRequirements.requiredStaff) );
+  });
+}
+
+displayStaffStatus();
