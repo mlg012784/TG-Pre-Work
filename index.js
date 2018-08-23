@@ -772,4 +772,11 @@ let Airplane = {};
 Airplane.myAirplane = "StarJet"
 module.exports = Airplane;
 
+//JS 84
+const Airplane = require('./1-airplane.js');
 
+function displayAirplane() {
+  console.log(Airplane.myAirplane);
+}
+
+displayAirplane();
