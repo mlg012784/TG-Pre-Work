@@ -932,4 +932,8 @@ export function meetsStaffRequirements(availableStaff, requiredStaff) {
 };
 export default meetsSpeedRangeRequirements;
 
+//JS 95
+import { availableAirplanes, flightRequirements, meetsStaffRequirements} from './airplane';
+
+import meetsSpeedRangeRequirements from './airplane';
 
