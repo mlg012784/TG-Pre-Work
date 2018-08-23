@@ -972,4 +972,9 @@ const getSuggestions = () => {
   xhr.send();
 }
 
+//JS 98
+const queryParams = 'rel_jjb=';
+const additionalParams = '&topics=';
 
+const topicQuery = topicField.value;
+const endpoint = `${url}${queryParams}${wordQuery}${additionalParams}${topicQuery}`;
