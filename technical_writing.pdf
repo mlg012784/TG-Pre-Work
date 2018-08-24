@@ -1,0 +1,40 @@
+Q: When we hit https://www.techtonicgroup.com/ what happens?
+
+   A: The client software (browser) sends an http request to the server that hosts the url for 
+        the code it needs to render elements; and diaplays this data on the client machine.
+
+
+Q: From start to finish how does that data reach you to be rendered in the browser?
+    
+    A: The server receives the request, checks to see if it has the data' 
+        The server then redirects, sends error or requested data back to the client along with the appropriate status code. 
+
+Q: What code is rendered in the browser?
+
+    A: HTML, CSS, Audio, Images, and Video.
+
+
+Q: What is the server-side code’s main function?
+
+    A: Handling requests, authenticaiotn, and sending data to or fetching data from databases.
+
+Q: What is the client-side code’s main function?
+
+    A: Displaying data, capturing input and sending data in requests to the server.  
+
+
+Q: How many instances of the client-side assets (HTML, CSS, JS, Images, etc.) are created?
+
+    A: One
+
+Q: How many instances of the server-side code are available at any given time?
+
+    A: One
+
+Q: What is runtime?
+
+    A: It  is when code is running on a machine.
+
+Q: How many instances of the the databases connected to the server application are created?
+    
+    A: As many as the code calls for.
