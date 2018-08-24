@@ -1039,3 +1039,20 @@ fetch('https://api-to-call.com/endpoint', {
 }).then(jsonResponse => {
   console.log(jsonResponse);
 })
+
+//JS 103
+const shortenUrl = () => {
+  const urlToShorten = inputField.value;
+  const data = JSON.stringify({destination: urlToShorten})
+  
+	fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-type': 'application/json',
+      'apikey': apiKey
+    },
+    body: data
+  })
+}
+
+
