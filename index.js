@@ -1091,6 +1091,19 @@ const getData = async () => {
   }
 }
 
-
+//JS 107
+const getSuggestions = async () => {
+  const wordQuery = inputField.value;
+  const endpoint = `${url}${queryParams}${wordQuery}`;
+  try {
+    const response = await fetch(endpoint);
+    if(response.ok){
+      const jsonResponse = await response.json();
+      renderResponse(jsonResponse);
+    }
+  } catch (error) {
+    console.log(error);
+  }
+}
 
 
