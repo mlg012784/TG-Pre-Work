@@ -1072,6 +1072,11 @@ fetch(url, {
   console.log(networkError.message)
 })
 
+//JS 105
+.then(jsonResponse => {
+  renderResponse(jsonResponse)
+})
+
 
 
 
